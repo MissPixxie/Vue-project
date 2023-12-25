@@ -4,7 +4,8 @@ This was intended as a website för drinks enthusiasts or people who just wanted
 I was unfortunately limited by the free version of the Api.
 
 ## Installation
-`npm install`
+1. `npm install`
+2. `npm run serve`
 
 ## Screenshots
 
