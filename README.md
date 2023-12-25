@@ -3,6 +3,9 @@
 This was intended as a website för drinks enthusiasts or people who just wanted tip on drinks.
 I was unfortunately limited by the free version of the Api.
 
+## Installation
+`npm install`
+
 ## Screenshots
 
 ### Home
