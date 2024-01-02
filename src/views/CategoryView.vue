@@ -1,15 +1,14 @@
 <template>
-  <div class="main">
-      <GetCategoryApi />    
+  <div class="mainCategoryView">
+    <GetCategoryApi />
   </div>
 </template>
 
 <script>
-
-import GetCategoryApi from '@/components/GetCategoryApi.vue';
+import GetCategoryApi from "@/components/GetCategoryApi.vue";
 
 export default {
-    name: 'CategoryView',
-    components: { GetCategoryApi },
-}
+  name: "CategoryView",
+  components: { GetCategoryApi },
+};
 </script>

@@ -1,3 +1,4 @@
-module.exports = {
-  publicPath: '/~emha0046/Javascriptramverk/Examinationsuppgift/dist/'
-}
+const { defineConfig } = require("@vue/cli-service");
+module.exports = defineConfig({
+  transpileDependencies: true,
+});

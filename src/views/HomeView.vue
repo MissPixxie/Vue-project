@@ -1,30 +1,32 @@
 <template>
-  <div class="main">
+  <div class="mainHomeView">
     <div class="citat">
-      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat orci ac mi maximus, id malesuada ante interdum. Nunc vehicula sapien nibh, 
-        a auctor lacus pretium id. Vestibulum tincidunt posuere velit eu pellentesque. Cras quis lacus dolor. Donec nec feugiat nisl, a congue purus."</p>
+      <p>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        volutpat orci ac mi maximus, id malesuada ante interdum. Nunc vehicula
+        sapien nibh, a auctor lacus pretium id. Vestibulum tincidunt posuere
+        velit eu pellentesque. Cras quis lacus dolor. Donec nec feugiat nisl, a
+        congue purus."
+      </p>
     </div>
     <div class="email">
       <h3>Subscribe</h3>
       <div class="input">
-        <input class="input-field" type="text" name="email">
-        <i class="fa fa-arrow-right icon"></i>      
+        <input class="input-field" type="text" name="email" />
+        <i class="fa fa-arrow-right icon"></i>
       </div>
-
     </div>
-  </div>    
-
+  </div>
 </template>
 
 <script>
-
-  export default {
-    name: 'HomeView',
-  }
+export default {
+  name: "HomeView",
+};
 </script>
 
 <style scoped>
-.main {
+.mainHomeView {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +35,7 @@
   background-repeat: no-repeat;
   background-position: center;
   min-height: 80vh;
-  font-family: 'Taviraj', serif;
+  font-family: "Taviraj", serif;
 }
 
 .citat {
@@ -49,8 +51,12 @@
   animation-duration: 3s;
 }
 @keyframes fade {
-  0%   {opacity: 0%;}
-  100% {opacity: 100%;}
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 .email {
   margin-top: 1%;
@@ -60,7 +66,7 @@
   justify-content: space-around;
   background-color: rgba(0, 0, 0, 0.418);
   width: 50%;
-  font-family: 'Taviraj', serif;
+  font-family: "Taviraj", serif;
   animation-name: fade;
   animation-duration: 4s;
 }
